@@ -41,16 +41,41 @@
 }
 
 
+.hd{
+    background-color: darkblue;
+}
+
+
+.Resultcard{	
+	margin-top: 0;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    position: relative;
+    background: #fff;
+    box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
 
 
 
-
-
-
-
-
-
-
+.text_result{
+    font-size: 18px;
+}
+.ResultBtn{
+    background: #014982;
+    color: #fff;
+    letter-spacing: 0.4px;
+    -moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+.ResultBtn:hover{
+    background: #01579B;
+    text-decoration: none;
+    color: #fff;
+}
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -162,7 +187,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #02aab0 !important;
+			color: #02aab0 ;
 			text-decoration: none;
 		}
 

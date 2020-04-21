@@ -32,23 +32,23 @@
 							<th ng-click="sort('id')">Id
 								<span class="glyphicon sort-icon" ng-show="sortKey=='id'" ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
 							</th>
-							<th ng-click="sort('first_name')">First Name
+							<th ng-click="sort('Donner_name')">Name
 								<span class="glyphicon sort-icon" ng-show="sortKey=='first_name'" ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
 							</th>
-							<th ng-click="sort('last_name')">Last Name
+							<th ng-click="sort('Pay_method')">Via
 								<span class="glyphicon sort-icon" ng-show="sortKey=='last_name'" ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
 							</th>
-							<th ng-click="sort('hobby')">Hobby
-								<span class="glyphicon sort-icon" ng-show="sortKey=='hobby'" ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
+                            <th >Donation Status								
 							</th>
+							
 						</tr>
 					</thead>
 					<tbody>
 						<tr dir-paginate="user in users|orderBy:sortKey:reverse|filter:search|itemsPerPage:5">
 							<td>{{user.id}}</td>
-							<td>{{user.first_name}}</td>
-							<td>{{user.last_name}}</td>
-							<td>{{user.hobby}}</td>
+							<td>{{user.Donner_name}}</td>
+							<td>{{user.Pay_method}}</td>
+							<td>Done</td>
 						</tr>
 					</tbody>
 				</table> 

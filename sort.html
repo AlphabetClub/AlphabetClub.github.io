@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en" ng-app="angularTable">
+  <head>
+   <meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <title>Search Sort and Pagination in Angular js</title>
+    
+    
+		
+      
+       <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+      
+      
+		<link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+    <link rel="shortcut icon" href="images/alphabet_url_logof.png"/>
+  <body class="is-preload">
+      <header id="header">
+				<div class="inner">
+					<a href="index.html" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
+					<h1>
+					Powered by Alphabet Club</h1>
+                     <h5>© 2020 Alphabet Club</h5>
+				</div>
+			</header>
+      <div id="main">
+   
+            <div class="card payment_card" style="padding:2px; background-image: linear-gradient( 109.6deg,  rgba(223,234,247,1) 11.2%, rgba(244,248,252,1) 91.1% );">
+               
+                   
+                        <h5  style="padding:10px;padding-bottom: 0px; margin-top: 5px; color:#000017; "><i class="fas fa-heart" style="color:#ff4c4c;"></i> THANK YOU !!</h5><hr>
+                <p style="padding-left:10px;padding-right:10px;color:#000036;">Thanks to your help, So far we have delivered food equipment to <b style="color:#4c4c83;">393</b> helpless families! There are many of helpless families still in our area (Aranghata) during lockdown. If you would like to continue to support us, <b style="color:#46467f;">please make another contribution or share us with your friends and family.</b></p>
+                <span class="text-muted">#COVID- 19</span>
+                    <p style="color:#000017;">ALPABET CLUB<br> <i>Thinking New Making New</i></p>
+          
+          </div>
+          <section id="one">
+              <div class="container-fluid">
+        <div class="row justify-content-center"><div class="col-md-6" style="border:0.5px solid #666666; border-radius:20px; " >
+            <h5 class="text-muted text-center" style="padding: 2px;" ><i>Check your <b>donation status</b></i></h5></div></div></div><br>
+              <p class="text-muted text-center">we have listed down below donator name  that we have recived so far. ©Alphabet Club</p>
+            
+              <br>
+	<div role="main" >
+    
+        
+		 
+			<div class="bs-component" ng-controller="listdata">
+				
+				<form class="form-inline" >
+					<div class="form-group" >
+						<label>Search donator name here&nbsp; <i class="fa fa-search" aria-hidden="true"></i>&nbsp;</label>
+                        
+						<input type="text" ng-model="search" class="form-control" placeholder= "Search" style="background:#ECF0F1;">
+					</div>
+				</form>
+                
+				<table class="table text-center" style="margin-top: -30px;">
+					<thead class="b" style="background-image: linear-gradient( 171.8deg,  rgba(5,111,146,1) 13.5%, rgba(6,57,84,1) 78.6% );" >
+						<tr>
+							<th ng-click="sort('id') " class="a text-center" style="color:#fff;">Id
+								<span class="glyphicon sort-icon" ng-show="sortKey=='id'" ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
+							</th>
+							<th ng-click="sort('Donner_name')"  class="a text-center"style="color:#fff;">Name
+								<span class="glyphicon sort-icon" ng-show="sortKey=='first_name'" ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
+							</th>
+							<th ng-click="sort('Pay_method')"  class="a text-center"style="color:#fff;">Via
+								<span class="glyphicon sort-icon" ng-show="sortKey=='last_name'" ng-class="{'glyphicon-chevron-up':reverse,'glyphicon-chevron-down':!reverse}"></span>
+							</th>
+                            <th  class="a text-center"style="color:#fff;">Status								
+							</th>
+							
+						</tr>
+					</thead>
+					<tbody>
+						<tr dir-paginate="user in users|orderBy:sortKey:reverse|filter:search|itemsPerPage:10">
+							<td>{{user.id}}</td>
+							<td style="color:#00004e;">{{user.Donner_name}}</td>
+							<td>{{user.Pay_method}}</td>
+							<td style="color:green;">Done</td>
+						</tr>
+					</tbody>
+				</table> 
+         
+				<dir-pagination-controls
+					max-size="5"
+					direction-links="true"
+					boundary-links="true" class="pagination"   >
+				</dir-pagination-controls>
+                 
+			</div>
+		
+	
+    
+    </div>
+              </section>
+           
+          <section id="two"></section>
+          <br><br><br><br><br><br><br><br><br><br><br><br>
+      </div>
+     
+       <!-- Footer -->
+		<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://www.facebook.com/alphabet.club.aranghata/?ref=search&__tn__=%2Cd%2CP-R&eid=ARDUdX6GXEM5BUS4hIA1XVzldmv9VRQlvCF6QiBp34b3_CiBRc-nTeqVb4vv3z8xsHRci-xmMlPlREhB" class="icon brands fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="credit.html"><span class="label">Credit</span></a></li>
+						
+						
+						
+					</ul>
+					<ul class="copyright">
+					<li>&copy;2020 webpage of <a href="index.html">Alphabet Club</a></li>
+					</ul>
+				</div>
+			</footer>
+      
+      <!-- Scripts -->
+         
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+        
+		<script src="lib/angular/angular.js"></script>
+		<script src="lib/dirPagination.js"></script>
+		<script src="app/app.js"></script>
+      
+      
+      
+       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+        
+      
+  </body>
+</html>

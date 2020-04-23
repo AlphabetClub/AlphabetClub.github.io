@@ -68,12 +68,12 @@
 {"id":68,"Donner_name":"Arpita Biswas","Pay_method":"PhonePe"},
 {"id":69,"Donner_name":"Debraj Biswas","Pay_method":"PhonePe"},
 {"id":70,"Donner_name":"Kalyan Saha","Pay_method":"PhonePe"},
-{"id":71,"Donner_name":"Tanisha","Pay_method":"PhonePe"},
+{"id":71,"Donner_name":"Tanisha Enterprise","Pay_method":"PhonePe"},
 {"id":72,"Donner_name":"Nabin Biswas","Pay_method":"PhonePe"},
 {"id":73,"Donner_name":"Saswati Saha","Pay_method":"PhonePe"},
 {"id":74,"Donner_name":"Subhankar Biswas","Pay_method":"Google Pay"},
 {"id":75,"Donner_name":"Rumki Biswas","Pay_method":"PhonePe"},
-{"id":76,"Donner_name":"Joly","Pay_method":"PhonePe"},
+{"id":76,"Donner_name":"Jayashree Saha","Pay_method":"PhonePe"},
 {"id":77,"Donner_name":"Sayani Sukul","Pay_method":"PhonePe"},
 {"id":78,"Donner_name":"Shibram Majumder","Pay_method":"PhonePe"},
 {"id":79,"Donner_name":"Sukhen Biswas","Pay_method":"PhonePe"},
@@ -81,8 +81,8 @@
 {"id":81,"Donner_name":"Amit Das","Pay_method":"Bank AC"},
 {"id":82,"Donner_name":"Pradip kr Das","Pay_method":"Bank AC"},
 {"id":83,"Donner_name":"Atanu","Pay_method":"PhonePe"},
-{"id":84,"Donner_name":"Sandip","Pay_method":"PhonePe"},
-{"id":85,"Donner_name":"Utpal","Pay_method":"PhonePe"},
+{"id":84,"Donner_name":"Sandip Chaudhury","Pay_method":"PhonePe"},
+{"id":85,"Donner_name":"Utpal kumar Saha","Pay_method":"PhonePe"},
 {"id":86,"Donner_name":"Nibedita Sarkar","Pay_method":"PhonePe"},
 {"id":87,"Donner_name":"Bodhisatya Maity","Pay_method":"PhonePe"},
 {"id":88,"Donner_name":"Aditi Saha","Pay_method":"PhonePe"},
@@ -91,7 +91,10 @@
 {"id":91,"Donner_name":"ELLORA ","Pay_method":"Cash"},
 {"id":92,"Donner_name":"Tapu","Pay_method":"Cash"},
 {"id":93,"Donner_name":"Dipti Halder","Pay_method":"Bank AC"},
-{"id":94,"Donner_name":"Ratan Roy","Pay_method":"Cash"}]
+{"id":94,"Donner_name":"Ratan Roy","Pay_method":"Cash"},
+{"id":95,"Donner_name":"Aritra","Pay_method":"PhonePe"},
+{"id":96,"Donner_name":"Nutan Kumari","Pay_method":"Cash"},
+{"id":97,"Donner_name":"Partha Tarafder","Pay_method":"Cash"}]
 
 
 

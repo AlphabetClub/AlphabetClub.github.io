@@ -15,6 +15,37 @@
     margin-top: 0px;
     }
 }
+.landing_image_covid{
+     width:80%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+@media (max-width: 767px) { 
+    .landing_image_covid{
+    width:200%;
+    margin: 0px;
+    margin-top: 0px;
+    }
+}
+
+.prevent_image_covid{
+    width:85%;
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 767px) { 
+    .prevent_image_covid{
+    width:200%;
+    margin: 0px;
+    margin-top: 0px;
+    }
+}
+
+
 .happy_moment{
     -moz-box-shadow:    3px 3px 5px 6px #ccc;
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;
@@ -29,6 +60,16 @@
     
 }
 
+.pretext{
+    margin-top: -50px;
+    padding-top: 0px;
+}
+@media (max-width: 767px) { 
+    .pretext{
+    
+    margin-top: 0px;
+    }
+}
 .work_text{
     line-height: 4.5vh;
 }
@@ -57,7 +98,38 @@
     transition: all 0.3s ease;
 }
 
-
+.pannelcard{	
+	margin-top: 0;
+    margin-bottom: 1.5rem;
+    
+    text-align: right;
+    background: #fff;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+.payment_card{	
+	margin-top: 0;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    
+    background: #fff;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+.updates_card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    
+}
+.updateslink{
+    color:#00007f; text-align:justify;  text-decoration: underline;
+}
+updateslink:hover{
+    color: #6666ff;
+}
 
 .text_result{
     font-size: 18px;
@@ -3144,6 +3216,14 @@ input, select, textarea {
 					#header h1 br {
 						display: inline;
 					}
+        
+        
+       /* card */
+       .pannel {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+        }
 
 		/* Footer */
 

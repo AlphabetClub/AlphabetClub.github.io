@@ -31,6 +31,10 @@
     }
 }
 
+
+
+
+
 .prevent_image_covid{
     width:85%;
      display: block;
@@ -40,6 +44,8 @@
 @media (max-width: 767px) { 
     .prevent_image_covid{
     width:200%;
+     
+         display: block;
     margin: 0px;
     margin-top: 0px;
     }
@@ -87,6 +93,14 @@
 }
 
 
+
+
+
+
+
+
+
+
 .Resultcard{	
 	margin-top: 0;
     margin-bottom: 1.5rem;
@@ -108,13 +122,25 @@
     border-radius: 4px;
     transition: all 0.3s ease;
 }
+
+.covid19_card{	
+	margin-top: 0;
+    margin-bottom: 1.5rem;
+    
+    text-align: left;
+    background: #fff;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
 .payment_card{	
 	margin-top: 0;
     margin-bottom: 1.5rem;
     text-align: center;
     
     background: #fff;
-     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    
     border-radius: 4px;
     transition: all 0.3s ease;
 }

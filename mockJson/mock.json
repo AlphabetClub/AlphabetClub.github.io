@@ -73,7 +73,7 @@
 {"id":73,"Donner_name":"Saswati Saha","Pay_method":"PhonePe"},
 {"id":74,"Donner_name":"Subhankar Biswas","Pay_method":"Google Pay"},
 {"id":75,"Donner_name":"Rumki Biswas","Pay_method":"PhonePe"},
-{"id":76,"Donner_name":"Jayashree Saha","Pay_method":"PhonePe"},
+{"id":76,"Donner_name":"Jayashree Saha","Pay_method":"Cash"},
 {"id":77,"Donner_name":"Sayani Sukul","Pay_method":"PhonePe"},
 {"id":78,"Donner_name":"Shibram Majumder","Pay_method":"PhonePe"},
 {"id":79,"Donner_name":"Sukhen Biswas","Pay_method":"PhonePe"},
@@ -95,7 +95,13 @@
 {"id":95,"Donner_name":"Aritra Basu","Pay_method":"PhonePe"},
 {"id":96,"Donner_name":"Nutan Kumari","Pay_method":"Cash"},
 {"id":97,"Donner_name":"Partha Tarafder","Pay_method":"Cash"},
-{"id":97,"Donner_name":"Ritwik Das","Pay_method":"PhonePe"}]
+{"id":98,"Donner_name":"Ritwik Das","Pay_method":"PhonePe"},
+{"id":99,"Donner_name":"Bidyut Dey","Pay_method":"PhonePe"},
+{"id":100,"Donner_name":"Srikanta Pal","Pay_method":"PhonePe"},
+{"id":101,"Donner_name":"Surojit Dolui","Pay_method":"PhonePe"},
+{"id":102,"Donner_name":"Saswati Sarkar","Pay_method":"Bank AC"},
+{"id":103,"Donner_name":"Tapas Sadhukhan","Pay_method":"Cash"},
+{"id":104,"Donner_name":"Alok kumar Chakrabarty","Pay_method":"Cash"}]
 
 
 

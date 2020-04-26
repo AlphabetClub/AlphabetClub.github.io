@@ -109,8 +109,10 @@
 {"id":109,"Donner_name":"Prodip kr Paul","Pay_method":"Cash"},
 {"id":110,"Donner_name":"Moli Sarkar","Pay_method":"Cash"},
  {"id":111,"Donner_name":"Kaustuv Bose","Pay_method":"Bank AC"},
-{"id":112,"Donner_name":"Niharika Roy","Pay_method":"Google Pay"}]
-
+{"id":112,"Donner_name":"Niharika Roy","Pay_method":"Google Pay"},
+ {"id":113,"Donner_name":"Prasenjit Paul","Pay_method":"PhonPe"},
+ {"id":114,"Donner_name":"Bisakha Paul","Pay_method":"Cash"}
+]
 
 
 

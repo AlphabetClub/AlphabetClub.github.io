@@ -23,6 +23,30 @@
   }
 }
 
+.blink{
+		
+	    background-color: magenta;
+		padding: 2px;	
+		text-align: center;
+    margin-top: 10px;
+		
+	}
+	.blinking{
+		
+		font-size: 13.5px;
+		color: #ffffd8;
+		animation: blink 1.6s linear infinite;
+         transition: all .1s ease-out;
+        
+       
+	}
+@keyframes blink{
+0%{opacity: 0;}
+   
+50%{opacity: .9;}
+   
+100%{opacity: 1;}
+}
 
 
 

@@ -10,18 +10,10 @@
     box-shadow: 0 0 0 0px  #b3b300;
   }
   100% {
-    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 12px rgba(0, 0, 0, 0);
   }
 }
 
-@keyframes shadow-pulse-big {
-  0% {
-    box-shadow: 0 0 0 0px #cdcd00;
-  }
-  100% {
-    box-shadow: 0 0 0 40px rgba(0, 0, 0, 0);
-  }
-}
 
 
 
@@ -63,6 +55,7 @@ box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
 		box-shadow: 0 0 0 0 rgba(142, 68, 173, 0);
 	}
 }
+
 
 
 
@@ -3532,6 +3525,7 @@ input, select, textarea {
 
 	}
 
+/* for Galaxy s5 */
 
 .covidstat{
 }
